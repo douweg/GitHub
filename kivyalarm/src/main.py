@@ -16,7 +16,7 @@ class Controller(FloatLayout):
 
     def do_action(self):
         self.label_wid.text = 'My label after button press'
-        self.info = 'New  info text'
+        self.info = 'New info text'
         vibrator.vibrate(10) 
 
 
